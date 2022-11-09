@@ -1,0 +1,52 @@
+/*
+ * Main Candy Shop styles 
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Yeseva+One&display=swap');
+
+body {
+	background: #FEF6F2;
+	margin: 0;
+}
+
+header.wp-block-template-part {
+    margin-bottom: 100px;
+    background-color: #FFCCCC;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+}
+
+header a {
+    text-decoration: none;
+    transition: 0.2s all ease-in-out;
+    border-bottom: 2px dashed transparent;
+    color: #333333;
+}
+
+header a:not(.custom-logo-link):hover {
+    border-color: initial;
+}
+
+header.wp-block-template-part .wp-block-column {
+    display: flex;
+    align-items: center;
+}
+
+header.wp-block-template-part .wp-block-column:nth-child(2) {
+    justify-content: flex-end;
+}
+
+.wp-block-columns {
+    max-width: 1050px;
+    width: calc( 100% - 25px - 25px );
+    margin: auto;
+}
+
+h1.wp-block-site-title {
+    margin: 0;
+    line-height: 48px;
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 1.5rem;
+}
