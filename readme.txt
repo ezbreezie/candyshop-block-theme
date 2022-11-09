@@ -11,7 +11,7 @@ A mega-simple block theme built to display candy cards!
 
 == Description ==
 
-This is a custom FSE WP theme built to display simple content and a candy card block (which is a plugin that must be downloaded and installed separately!).
+This is a custom FSE WP theme built to display simple content and a candy card block (which is a plugin that must be downloaded and installed separately!). Test out the editing capabilities in the index template, or directly on a page/post!
 
 == Installation ==
 
